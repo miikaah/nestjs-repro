@@ -1,8 +1,9 @@
-This is repro to showcase problems in NestJS v5.1.0 with @nestjs/swagger v2.5.1 date 15.9.2018.
+This is a repro to showcase problems in NestJS v5.1.0 with @nestjs/swagger v2.5.1 date 15.9.2018.
 
 I started by generating a new NestJS project with `nest new nestjs-repro`
 
-###Major problem
+### Major problem
+
 Steps (following https://docs.nestjs.com/recipes/swagger):
 
 1. `npm install --save @nestjs/swagger`
